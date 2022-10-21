@@ -13,3 +13,4 @@ R = input("Enter your rate:")
 T = input("Enter your time:")
 
 compound_interest(float(P), float(R), float(T))
+
