@@ -7,4 +7,10 @@ def compound_interest(principle, rate, time):
 	CI = Amount - principle
 	print("Compound interest is", CI)
 
-compound_interest(23424, 8.25, 3)
+
+P = input("Enter your principle amount:")
+R = input("Enter your rate:")
+T = input("Enter your time:")
+
+compound_interest(float(P), float(R), float(T))
+
